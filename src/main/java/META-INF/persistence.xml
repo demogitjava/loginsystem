@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="default">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>de.jsoft.model.Users</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:h2:tcp://localhost/~/demodb"/>
+            <property name="eclipselink.jdbc.driver" value="org.h2.Driver"/>
+            <property name="eclipselink.jdbc.user" value="admin"/>
+            <property name="eclipselink.jdbc.password" value="jj78mvpr52k1"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>

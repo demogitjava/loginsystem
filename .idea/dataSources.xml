@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3593891751">
+    <data-source source="LOCAL" name="H2 - demodb@localhost" uuid="f65ce39c-81e5-4f55-8909-7d419370f206">
+      <driver-ref>h2.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:tcp://localhost:9092/~/demodb</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Dokumente/h2/bin/h2-1.4.198.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
